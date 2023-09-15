@@ -32,5 +32,7 @@ public class BoxActivity extends AppCompatActivity {
         boxAdapter= new BoxAdapter(integers,BoxActivity.this);
         recbox.setAdapter(boxAdapter);
 
+
+
     }
 }
