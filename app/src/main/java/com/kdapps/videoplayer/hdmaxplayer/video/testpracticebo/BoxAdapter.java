@@ -75,7 +75,6 @@ public class BoxAdapter extends RecyclerView.Adapter<BoxAdapter.BoxAdapterClass>
 //
 //                holder.imageview.setBackgroundColor(backgroundColor);
 //
-//
 //                Log.e("isselcted", "onClick: "+isSelected);
 //
 //                // You can also perform other actions based on item selection here
@@ -84,13 +83,11 @@ public class BoxAdapter extends RecyclerView.Adapter<BoxAdapter.BoxAdapterClass>
 
 //        holder.itemView.setSelected(holder.isSelected);
 
-
         holder.itemView.setSelected(selectedPositions.contains(position));
 
         int lastItemPosition = getItemCount() - 1;
 
-        // Set a click listener to toggle selection
-        holder.itemView.setOnClickListener(v -> {
+         holder.itemView.setOnClickListener(v -> {
             if (selectedPositions.contains(position)) {
                 selectedPositions.remove(Integer.valueOf(position));
                 Log.e("isselcted", "remove: " + selectedPositions);

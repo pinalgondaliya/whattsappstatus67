@@ -10,4 +10,5 @@
     <color name="green">#2A7E13</color>
     <color name="red">#B8190D</color>
     <color name="blue">#7F36F4</color>
+    <color name="card_color">#ffffff</color>
 </resources>

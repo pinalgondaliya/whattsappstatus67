@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/new/AndroidStudioProjects/TestPracticeBo/app/src/main/res/drawable/lan_bg_selected.xml" value="0.1" />
         <entry key="..\:/Users/new/AndroidStudioProjects/TestPracticeBo/app/src/main/res/layout/activity_box.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/new/AndroidStudioProjects/TestPracticeBo/app/src/main/res/layout/activity_language.xml" value="0.1" />
         <entry key="..\:/Users/new/AndroidStudioProjects/TestPracticeBo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/new/AndroidStudioProjects/TestPracticeBo/app/src/main/res/layout/item_language.xml" value="0.1" />
         <entry key="..\:/Users/new/AndroidStudioProjects/TestPracticeBo/app/src/main/res/layout/item_view.xml" value="0.203125" />
       </map>
     </option>

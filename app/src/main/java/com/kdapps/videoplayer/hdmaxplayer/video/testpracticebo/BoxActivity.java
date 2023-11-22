@@ -23,17 +23,13 @@ public class BoxActivity extends AppCompatActivity {
 
         sss = getIntent().getIntExtra("inputnum",0);
 
-
         for (int i = 0; i <= sss - 1; i++) {
             integers.add(i);
         }
 
         recbox = findViewById(R.id.recbox);
-        boxAdapter= new BoxAdapter(integers,BoxActivity.this);
+        boxAdapter = new BoxAdapter(integers,BoxActivity.this);
         recbox.setAdapter(boxAdapter);
-
-
-
 
     }
 }
